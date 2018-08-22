@@ -1,0 +1,28 @@
+button{
+    width: 25%;
+    height: 25%;
+  
+}
+.contenedor-botones
+{
+    width: 150px;
+    height: 200px;
+    padding: 25px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    background-color: beige;
+}
+.visor
+{
+    height: 100px;
+    width: 150px;
+    padding: 25px;
+    background-color: aqua;
+}
+.calculadora
+{
+    width: 200px;
+    height: 400px;
+    padding: 25px;
+    background-color: black;
+}
