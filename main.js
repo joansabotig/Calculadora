@@ -32,11 +32,11 @@ function calcular()
     {
         case '+': total = a + b;
         break;
-        case '-': total = valor1 - valor2;
+        case '-': total = a - b;
         break;
-        case '*': total = valor1 * valor2;
+        case '*': total = a * b;
         break;
-        case '/': total = valor1 / valor2;
+        case '/': total = a / b;
         break;
     }
     console.log(total)
