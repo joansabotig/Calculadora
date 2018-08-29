@@ -61,6 +61,5 @@ function calcular()
     valor1 = total;
     valor2 = 0;
 
-    console.log("prueba "+valor1 + " + "+ valor2);
 }
 
