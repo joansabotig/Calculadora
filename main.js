@@ -52,14 +52,15 @@ function calcular()
         case '/': total = a / b;
         break;
     }
-    
+    ope2 = false;
     document.getElementById('visorid').innerHTML=total;
     historial += valor1 +' '+ operador + ' ' + valor2 + ' ' + '=' + total+ '\n <br>';
     console.log(total)
     console.log(historial)
     document.getElementById('hist').innerHTML=historial;
-    var divhistorial = document.gtElementById("hist");
-    valor1=total;
-    valor2 ='';
+    valor1 = total;
+    valor2 = 0;
+
+    console.log("prueba "+valor1 + " + "+ valor2);
 }
 
