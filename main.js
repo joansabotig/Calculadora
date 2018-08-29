@@ -58,6 +58,7 @@ function calcular()
     console.log(total)
     console.log(historial)
     document.getElementById('hist').innerHTML=historial;
+    var divhistorial = document.gtElementById("hist");
     valor1=total;
     valor2 ='';
 }
